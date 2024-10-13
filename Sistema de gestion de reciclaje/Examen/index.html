@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sistema de Gestión de Reciclaje</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1>Sistema de Gestión de Reciclaje</h1>
+
+      <section>
+        <h2>Registro de Usuario</h2>
+        <input type="text" id="username" placeholder="Nombre del usuario">
+        <button onclick="registerUser()">Registrar Usuario</button>
+      </section>
+
+    
+      <section>
+        <h2>Reciclaje</h2>
+        <input type="number" id="user_id" placeholder="ID del usuario">
+        <input type="number" id="material_id" placeholder="ID del material">
+        <input type="number" id="quantity" placeholder="Cantidad reciclada">
+        <button onclick="recordRecycling()">Registrar Reciclaje</button>
+      </section>
+
+      <section>
+        <h2>Estadísticas</h2>
+        <button onclick="getStatistics()">Obtener Estadísticas</button>
+        <pre id="statistics"></pre>
+      </section>
+
+      <script src="script.js"></script>
+    </body>
+  </html>

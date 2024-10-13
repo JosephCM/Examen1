@@ -1,0 +1,17 @@
+ public/styles.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: green;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
